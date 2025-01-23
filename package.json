@@ -1,21 +1,21 @@
 {
-  "homepage": "https://AyaVeteloper.github.io/comfy-store",
+  "homepage": "https://Aya-Veteloper.github.io/comfy-store",
   "name": "comfy-store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.4.0",
-    "@tanstack/react-query": "^5.62.3",
-    "@tanstack/react-query-devtools": "^4.36.1",
+    "@tanstack/react-query": "^5.64.2",
+    "@tanstack/react-query-devtools": "^5.64.2",
     "axios": "^1.7.9",
     "dayjs": "^1.11.13",
     "react": "^18.3.1",
